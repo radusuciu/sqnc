@@ -1,0 +1,22 @@
+{
+  "name": "sqnc",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Radu Suciu"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "^2.1.8"
+  }
+}

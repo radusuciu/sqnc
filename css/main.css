@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.ui.container > h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+}
+
+#container {
+    padding:5em 0;
+}
+
+#sequence {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding: 0.2em 0.5em;
+    font-family: Consolas, monospace;
+    resize: vertical;
+    height: 4em;
+}
+
+.sequence {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: Consolas, monospace;
+    word-wrap:break-word;
+}
