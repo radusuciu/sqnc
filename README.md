@@ -2,7 +2,6 @@ Install:
 
 ```
 npm install
-bower install
 ```
 
 To start up dev env:
