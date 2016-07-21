@@ -5,7 +5,7 @@ const SequenceComponent = ({
 }) => (
     <div className="ui form">
         <div className="field">
-            <label>Sequence</label>
+            <label>Desired Sequences</label>
             <textarea
                 id="sequence"
                 onChange={ changeSequence }

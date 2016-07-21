@@ -1,12 +1,6 @@
-Install:
+Install and start up hot reloading dev env on http://localhost:3000
 
 ```
 npm install
-```
-
-To start up dev env:
-
-```
-npm install -g watchify
-watchify -t [ babelify --presets [ react es2015 babel-preset-stage-2] ] main.js -o bundle.js
+npm start
 ```

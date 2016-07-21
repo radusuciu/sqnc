@@ -5,6 +5,7 @@ export default class Sequence {
         complement = false,
         translate = false
     } = {}) {
+        console.log('new sequence', sequence);
         this._sequence = Sequence.validate(sequence);
         this._reverse = reverse;
         this._complement = complement;
@@ -22,6 +23,7 @@ export default class Sequence {
     }
 
     set sequence(sequence) {
+        console.log('set sequence', sequence);
         this._sequence = sequence;
         return this;
     }
@@ -58,6 +60,7 @@ export default class Sequence {
         for (let base of sequence) {
             complement.push(complements[base]);
         }
+        console.log(sequence);
 
         return complement.join('');
     }
@@ -78,7 +81,7 @@ export default class Sequence {
     }
 
     // code adapted from Pierre Lindenbaum, http://plindenbaum.blogspot.com
-    getTranslation(sequence = this_sequence) {
+    getTranslation(sequence = this._sequence) {
         var protein = '';
 
         for (let i = 0; i + 2 < sequence.length; i += 3) {

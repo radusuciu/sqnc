@@ -7,6 +7,8 @@ import Button from './components/Button.jsx'
 import Sequence from './models/Sequence.js'
 import * as ActionType from './actionTypes.js'
 
+module.hot.accept();
+
 const initialState = {
     sequence: '',
     reverse: false,
